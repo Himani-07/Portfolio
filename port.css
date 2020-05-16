@@ -1,0 +1,430 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+ font-family:'consolas'!important;
+  align-items: center;
+   
+}
+body 
+{
+  align-items: center;
+  justify-content: center;
+}
+
+.container-fluid
+{
+
+  padding-left: 0rem!important;
+  padding-right: 0rem!important;
+  overflow: hidden!important;
+}
+
+a{
+  color: black!important;
+
+}
+
+#nav{
+    background-color: rgba(255, 230, 0, 0.856);
+}
+
+
+.navbar-toggler-icon
+{
+    outline: none;
+}
+nav
+{
+   position: fixed;
+   width: 100%;
+   height: 80px;
+   padding: 0 00px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: yellow;
+   z-index: 1000;
+}
+
+nav .logo
+{
+
+	color: black;
+	font-size: 30px;
+	line-height: 80px;
+	padding: 0 50px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 1000;
+
+}
+
+nav ul
+{
+	position: relative; 
+	display: flex;
+}
+
+ nav ul li
+ {
+    position: relative;
+    list-style: none;
+
+ }
+ nav ul li a
+{
+    position: relative;
+    padding-right:50px 30px;
+    color: black;
+    display: inline-block;
+    letter-spacing: .2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+  nav ul li a:hover
+  {
+
+  	background:blue;
+      }
+
+  .checkbtn
+  {
+  	display: none;
+  	font-size: 30px;
+  	color: black;
+  	float: right;
+  	line-height: 80px;
+  	margin-right: 400%;
+    cursor: pointer;
+  }
+
+
+section
+{  
+	position: relative;
+}
+.sec-1
+{
+
+	width: 100%;
+	height: 600px;
+	padding: 40px 60px;
+	background-image: url(photo.jpg);
+	background-attachment: fixed; 
+	background-size: cover;
+	transition: .5s;
+}
+.hme
+{
+  
+  letter-spacing: .3em;
+  font-size: 30px;
+  padding-left: 500px;
+  margin: 100px ;
+
+}
+
+.prof
+{
+  
+    font-size: 25px;
+}
+.sec-2
+{  
+  
+	background-image: url(camera1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color:rgb(247, 247, 247);
+  font-size: 30px;
+	width: 100%;
+	height: 400px;
+	padding: 80px 120px;
+	display: block;
+	transition: .5s;
+
+}
+.sec-3
+{
+	width: 100%;
+	height: 600px;
+	background-image: url(photo.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+  display: flex;
+  transition: .5s;
+
+ 
+ 
+}
+ 
+ .wrapper
+{
+  display: flex;
+  width: 150%;
+  justify-content: space-around;
+  
+
+
+}
+.wrapper .card1
+{
+width: 280px;
+height: 360px;
+padding:2rem 1rem;
+position: relative;
+display: flex;
+align-items: flex-end;
+box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+transition: 0.5s ease-in-out;
+}
+
+.abt
+{
+  
+  letter-spacing: .3em;
+  font-size: 30px;
+  padding-left: 550px;
+  margin: 10px ;
+
+}
+
+.sec-4
+{   
+ 
+	width: 100%;
+	height: 500px;
+	font-size: 20px;
+	padding: 30px 30px;
+	background-image: url(lap.jpeg);
+	background-size: cover;
+	transition: .5s;
+}
+
+.sec-5
+{
+  width: 100%;
+  height: 500px;
+  font-size: 20px;
+  padding: 30px 30px;
+  transition: .5s;
+  background-color: black;
+  background-image: url(photo.jpg) ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: .5s;
+}
+
+ 
+
+.box
+{
+  
+    transition: .5s;
+}
+
+
+
+.box p
+{
+ 
+	font-size: 28px;
+  padding-right: 100px;
+	margin-top: 100px;
+  text-align: right;
+
+}
+
+
+.box h1
+{
+	font-size: 50px;
+	text-shadow: 0px 0px 5px yellow;
+	text-align: right;
+}
+
+
+
+
+
+    .login-box{
+      width:300px;
+      position: absolute;
+      top: 40%;
+      left: 40%;
+      transform: translate(0%,-40%);
+      color: white;
+
+    }
+
+    .login-box h1{
+      top:75%;
+      left:80%;
+      height: 40px;
+      width:98px;
+      transform: translate(-50%,140%);
+      float: left;
+      font-size: 30px;
+     
+      padding:30px 10px;
+      
+
+    }
+
+    .textbox{
+      width: 100%;
+      overflow: hidden;
+      font-size: 10px ;
+      padding: 12px ;
+      transform: translate(70%,10%);
+      margin:20px 30px;
+      border-bottom: 1px solid white;
+      margin-bottom: 2px ;
+
+      
+    }
+
+
+
+     .textbox i{
+      width:40px;
+      float:left;
+      text-align: center;
+      padding: 5px;
+     }
+
+    .textbox input{
+      border: none;
+      outline: none;
+      
+      background: none;
+      color: white;
+      font-size: 13px;
+      width: 50%;
+      float: left;
+      margin: 10px 3px;
+      transform: translate(-10%,-10%);
+
+    }
+
+     .btn
+     {
+      width: 50%;
+      background: none;
+      border: 1px solid white!important;
+      color: white!important;
+      padding: 5px;
+    
+      font-size: 40px;
+      cursor: pointer;
+      transform: translate(50%,180%);
+     
+
+     }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 440px)
+{
+
+  section
+  {
+  	padding: 100px 100px 100px;
+    flex-direction: column;
+}
+  nav ul
+	{
+		position: absolute;
+		top:80px;
+		left: 0px;
+		width: 100%;
+		height: 600%;
+		padding: 110px 0;
+		text-align: center;
+		overflow: auto;
+		transition: 0.5s;
+		background: white;
+		flex-direction: column; 
+	
+	}
+ 
+	
+	nav ul li a
+	{
+		margin: -5 ;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	
+	.toggle
+	{
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+	}
+
+	.toggle:before
+	{
+    font-color: white;
+		content: '';
+	  display: inline-block;
+      position: absolute;
+      top: -800%;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: yellow;
+      z-index: 1000;
+      box-shadow: 0 10px 0 yellow;
+      transition: 0.5s;
+      
+
+	}
+    
+    .toggle:after
+	{
+      content: '';
+      position: absolute;
+      bottom: 4px;
+      width: 100%;
+      height: 2px;
+      background: yellow;
+      z-index: 1;
+      box-shadow: 0 5px 0 yellow;
+      transition: 0.5s;
+
+
+	}
+
+	nav .active .toggle:before
+	{
+		top:14px ;
+		transform: rotate(45deg);
+		box-shadow: 0 0 0 yellow;
+
+	}
+
+	nav .active .toggle:after
+	{
+		bottom:14px ;
+		transform: rotate(45deg);
+		
+
+	}
+	
+	
+
+}
+
